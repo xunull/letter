@@ -1,0 +1,23 @@
+{
+  "name": "letter",
+  "version": "0.0.1",
+  "description": "nodejs 编写的 信息通讯简单实现",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xunull/letter.git"
+  },
+  "author": "xunull",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xunull/letter/issues"
+  },
+  "homepage": "https://github.com/xunull/letter#readme",
+  "dependencies": {
+    "q": "^1.4.1",
+    "ursa": "^0.9.4"
+  }
+}
