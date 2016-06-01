@@ -34,3 +34,6 @@ node_modules
 
 # test directory
 test
+
+tmp
+.DS_Store
