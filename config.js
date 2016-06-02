@@ -3,7 +3,8 @@ var config = {
     debug: true,
     _default: {
         host_port: 15577
-    }
+    },
+    encode:false
 };
 
 module.exports = config;

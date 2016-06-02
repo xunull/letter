@@ -5,15 +5,17 @@ var env = process.env.NODE_ENV || "development";
 
 var log4js = require('log4js');
 log4js.configure({
-  appenders: [{
-    type: 'console'
-  }, {
-    type: 'file',
-    filename: 'logs/cheese.log',
-    category: 'xunull'
-  }],
-  // 不替换node 自己的console
-  // replaceConsole: true
+    appenders: [{
+                type: 'console'
+            }
+            // , {
+            //     type: 'file',
+            //     filename: 'logs/cheese.log',
+            //     category: 'xunull'
+            // }
+        ]
+        // 不替换node 自己的console
+        // replaceConsole: true
 });
 
 // category 应该是logger的名字的意思
