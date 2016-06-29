@@ -1,6 +1,6 @@
 {
   "name": "letter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nodejs 编写的 信息通讯简单实现",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/xunull/letter#readme",
   "dependencies": {
+    "lodash": "^4.13.1",
     "log4js": "^0.6.36",
     "q": "^1.4.1",
     "ursa": "^0.9.4",
