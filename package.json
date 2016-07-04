@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/xunull/letter#readme",
   "dependencies": {
+    "async": "^2.0.0-rc.6",
     "lodash": "^4.13.1",
     "log4js": "^0.6.36",
     "q": "^1.4.1",
