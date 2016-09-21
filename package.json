@@ -1,10 +1,10 @@
 {
-  "name": "letter",
+  "name": "x-letter",
   "version": "0.0.2",
-  "description": "nodejs 编写的 信息通讯简单实现",
+  "description": "realtime framework server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
     "type": "git",
